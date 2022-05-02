@@ -206,7 +206,7 @@ client.background       #F8F8F2
 # finds out, if available)
 
 bar {
-    font pango:Noto Sans Mono, Font Awesome 6 Free 14
+    font pango:Noto Sans Mono, Font Awesome 6 Free 10
     status_command /usr/bin/i3status-rs ~/.config/i3/status.toml
     colors {
         separator #44475A
