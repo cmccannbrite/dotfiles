@@ -23,6 +23,7 @@ local options ={
 
   --Window Settings
   relativenumber = true,
+  number = true,
   signcolumn = "auto",
   rnu = true,
   colorcolumn = "80",
