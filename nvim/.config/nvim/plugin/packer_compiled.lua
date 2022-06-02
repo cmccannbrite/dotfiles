@@ -158,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cmccann/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-prettier"] = {
+    loaded = true,
+    path = "/home/cmccann/.local/share/nvim/site/pack/packer/start/vim-prettier",
+    url = "https://github.com/prettier/vim-prettier"
   }
 }
 

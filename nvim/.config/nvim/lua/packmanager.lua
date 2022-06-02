@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
   use {'dracula/vim', as = 'dracula'}
   use {'kyazdani42/nvim-web-devicons'}
   use {'kyazdani42/nvim-tree.lua'}
+  use {'prettier/vim-prettier'}
   use {'neovim/nvim-lspconfig'}
   use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
   use { 'nvim-telescope/telescope.nvim'}
