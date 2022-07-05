@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/cmccann/.local/share/nvim/site/pack/packer/start/dracula",
     url = "https://github.com/dracula/vim"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/home/cmccann/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/home/cmccann/.local/share/nvim/site/pack/packer/start/lspkind-nvim",

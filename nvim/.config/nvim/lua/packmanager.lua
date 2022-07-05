@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
   use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
   use { 'nvim-telescope/telescope.nvim'}
   use { 'nvim-lua/plenary.nvim'}
+  use {'lukas-reineke/indent-blankline.nvim'}
   -- Completion
   use {'hrsh7th/cmp-nvim-lsp'}
   use {'hrsh7th/cmp-buffer'}
