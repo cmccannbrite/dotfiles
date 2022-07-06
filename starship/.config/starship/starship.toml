@@ -20,12 +20,17 @@ style = "bold #ff79c6"
 [git_status]
 style = "bold #ff5555"
 
-[hostname]
-style = "bold #bd93f9"
+[time]
+disabled =  false
+time_format = "%H:%M:%S"
+utc_time_offset = "-4"
 
-[username]
-format = "[$user]($style) on "
-style_user = "bold #8be9fd"
+# [hostname]
+# style = "bold #bd93f9"
+#
+# [username]
+# format = "[$user]($style) on "
+# style_user = "bold #8be9fd"
 
 # Replace the "❯" symbol in the prompt with "➜"
 #[character]      # The name of the module we are configuring is "character"

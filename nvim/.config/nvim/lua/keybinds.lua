@@ -48,3 +48,10 @@ mapper( 'n', '<Leader>n', ':NvimTreeFindFile<CR>', noremap)
 mapper( 'n', '<Leader>ff', ':Telescope find_files<CR>', snoremap)
 mapper( 'n', '<Leader>fb', ':Telescope buffers<CR>', snoremap)
 mapper( 'n', '<Leader>qb', ':Telescope quickfix<CR>', snoremap)
+
+--luasnip keybind
+mapper( 'i', '<C-k>', "<cmd>lua require'luasnip'.expand_or_jump()<CR>", snoremap)
+mapper( 'i', '<C-j>', "<cmd>lua require'luasnip.jump(-1)<CR>", snoremap)
+mapper( 'n', '<C-k>', "<cmd>lua require'luasnip'.jump(1)<CR>", snoremap)
+mapper( 'n', '<C-j>', "<cmd>lua require'luasnip'.jump(-1)<CR>", snoremap)
+mapper( 'n', '<leader>ls',"<cmd>lua require('luasnip.loaders.from_lua').load({paths = '~/.config/nvim/snippets'})<CR>", noremap)
